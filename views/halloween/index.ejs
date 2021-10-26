@@ -1,0 +1,15 @@
+<body>
+  <h1>The Best Halloween Villains</h1>
+  <% if(error) { %>
+    <h2><%= error %></h2>
+  <% } %>
+  <ul>
+    <% villains.forEach(function(villains) { %>
+      <li>
+        <%= villains.text %>
+          - 
+        <%= villains.done ? 'done' : 'not done' %>
+      </li>
+    <% }) %>
+  </ul>
+</body>
