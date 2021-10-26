@@ -1,7 +1,8 @@
 const villains = [
-  {text: 'Freddy Kreuger', done: true, _id: 125223},
-  {text: 'Chucky', done: true, _id: 127904},
-  {text: 'Michael Myers', done: true, _id: 139608}
+  {text: 'Freddy Kreuger', favorite: true, _id: 125223},
+  {text: 'Chucky', favorite: true, _id: 127904},
+  {text: 'Michael Myers', favorite: true, _id: 139608},
+  {text: 'It', favorite: false, _id:111216}
 ]
 
 const find = (conditions, callback) => {
